@@ -1,0 +1,29 @@
+{
+    "name": "exp_2",
+    "env": "CIFAR10",
+    "seeds": [
+        42,
+        123,
+        2025,
+        404,
+        2718
+    ],
+    "batch_size": 2,
+    "accum_steps": 64,
+    "img_size": 32,
+    "base_ch": 128,
+    "time_emb_dim": 256,
+    "lr": 0.0001,
+    "weight_decay": 0.0,
+    "epochs": 500,
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "s": 0.008,
+    "schedule_type": "cosine",
+    "sample_save_freq": 20,
+    "sample_grid_size": 4,
+    "patience": 1000, 
+    "save_model": true,
+    "notes": ""
+}
