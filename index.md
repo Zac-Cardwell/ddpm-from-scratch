@@ -273,6 +273,7 @@ _Figure 1._ Left: Reverse diffusion from noise to digits. Right: Training and va
 |---|---|---|---|---|
 |**Train Loss**|0.0387|0.0364|0.0590|0.0368|
 |**Val Loss**|0.0377|0.0360|0.0457|0.0366|
+
 ##### Observations
 - Training and validation losses remain closely aligned, indicating minimal overfitting.
 - Losses stabilize around 0.036–0.038 after ~40 epochs, demonstrating efficient convergence.
@@ -292,6 +293,7 @@ _Figure 2._ Left: Reverse diffusion from noise to RGB images. Right: Training an
 | -------------- | ------ | ------ | ------ | ------ |
 | **Train Loss** | 0.0576 | 0.0551 | 0.1386 | 0.0567 |
 | **Val Loss**   | 0.0575 | 0.0532 | 0.0832 | 0.0574 |
+
 ##### Observations
 - Loss curves remain closely aligned, indicating strong generalization.
 - The model converges around 0.056–0.058 loss values after ~50 epochs.
